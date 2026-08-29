@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>キョウコレ サポート</title>
+  <meta name="description" content="予定・アラーム・天気・メモ・PDFをまとめて管理できるiOSアプリ「キョウコレ」のサポートページです。">
+  <style>
+    :root{
+      --bg:#fffaf3;
+      --card:#ffffff;
+      --text:#2f2a26;
+      --sub:#766b63;
+      --accent:#c9782b;
+      --accent2:#f2c894;
+      --line:#eadfD2;
+      --blue:#3f6fb6;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",Meiryo,sans-serif;
+      color:var(--text);
+      background:
+        radial-gradient(circle at 12% 8%, rgba(242,200,148,.24), transparent 22%),
+        radial-gradient(circle at 90% 18%, rgba(201,120,43,.10), transparent 20%),
+        var(--bg);
+      line-height:1.7;
+    }
+    .wrap{max-width:880px;margin:auto;padding:28px 18px 70px}
+    .hero{
+      padding:44px 24px 36px;
+      text-align:center;
+    }
+    .dog{
+      width:92px;height:92px;border-radius:50%;
+      margin:0 auto 14px;
+      display:grid;place-items:center;
+      background:#fff;
+      border:1px solid var(--line);
+      box-shadow:0 8px 28px rgba(80,50,20,.10);
+      font-size:48px;
+    }
+    h1{font-size:34px;margin:0 0 8px}
+    .lead{color:var(--sub);margin:0 auto;max-width:620px;font-size:16px}
+    .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:18px}
+    .badge{
+      background:#fff;border:1px solid var(--line);border-radius:999px;
+      padding:6px 10px;font-size:13px;color:var(--sub)
+    }
+    .card{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:22px;
+      padding:26px;
+      margin:18px 0;
+      box-shadow:0 8px 24px rgba(70,45,20,.05);
+    }
+    h2{font-size:21px;margin:0 0 14px}
+    h3{font-size:16px;margin:18px 0 5px}
+    p{margin:6px 0}
+    a{color:var(--blue);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .contact{
+      display:inline-block;
+      margin-top:12px;
+      padding:12px 18px;
+      background:var(--accent);
+      color:white;
+      border-radius:14px;
+      font-weight:700;
+    }
+    .contact:hover{text-decoration:none;opacity:.92}
+    .note{
+      border-left:4px solid var(--accent2);
+      padding:10px 14px;
+      background:#fffaf5;
+      border-radius:8px;
+      color:var(--sub);
+      font-size:14px;
+      margin-top:14px;
+    }
+    details{
+      border-top:1px solid var(--line);
+      padding:14px 0;
+    }
+    details:first-of-type{border-top:none;padding-top:0}
+    summary{cursor:pointer;font-weight:700}
+    footer{
+      text-align:center;color:var(--sub);
+      font-size:13px;margin-top:30px
+    }
+    .paw{letter-spacing:8px;color:#d5b28c;font-size:19px;margin-top:12px}
+    @media(max-width:600px){
+      .hero{padding-top:30px}
+      h1{font-size:29px}
+      .card{padding:20px}
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div class="dog">🐕</div>
+      <h1>キョウコレ サポート</h1>
+      <p class="lead">
+        「キョウコレ」は、予定・アラーム・天気・メモ・PDFなどをまとめて管理できる
+        iOS向けスケジュールアプリです。
+      </p>
+      <div class="badges">
+        <span class="badge">予定管理</span>
+        <span class="badge">アラーム</span>
+        <span class="badge">天気</span>
+        <span class="badge">メモ</span>
+        <span class="badge">PDF添付</span>
+      </div>
+      <div class="paw">🐾 🐾 🐾</div>
+    </section>
+
+    <section class="card">
+      <h2>お問い合わせ</h2>
+      <p>
+        不具合、ご要望、使い方についてのご質問がありましたら、
+        下記メールアドレスまでお問い合わせください。
+      </p>
+      <a class="contact" href="mailto:kyokoredevelop@gmail.com?subject=キョウコレについてのお問い合わせ">
+        メールで問い合わせる
+      </a>
+      <div class="note">
+        ご連絡の際に「端末名」「iOSのバージョン」「発生した状況」を添えていただけると、
+        問題を確認しやすくなります。
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>よくある質問</h2>
+
+      <details>
+        <summary>通知・アラームが届きません</summary>
+        <p>
+          iPhoneの「設定」からキョウコレの通知が許可されているか確認してください。
+          また、予定にアラーム時刻が設定されているかもご確認ください。
+        </p>
+      </details>
+
+      <details>
+        <summary>天気が表示されません</summary>
+        <p>
+          通信状況をご確認のうえ、しばらく時間をおいて再度お試しください。
+          天気表示をオフにしている場合は、アプリ内の設定から有効にしてください。
+        </p>
+      </details>
+
+      <details>
+        <summary>PDFを予定に添付できますか？</summary>
+        <p>
+          はい。対応している予定ではPDFを添付し、予定やメモと一緒に確認できます。
+        </p>
+      </details>
+
+      <details>
+        <summary>予定に場所を登録できますか？</summary>
+        <p>
+          はい。検索で見つかる場所に加え、場所名を文字として保存することもできます。
+        </p>
+      </details>
+
+      <details>
+        <summary>広告について</summary>
+        <p>
+          無料版では一部の画面や操作時に広告が表示される場合があります。
+          広告非表示の利用方法が提供されている場合は、アプリ内の案内をご確認ください。
+        </p>
+      </details>
+    </section>
+
+    <section class="card">
+      <h2>アプリについて</h2>
+      <p>
+        今日の予定をひと目で確認し、カレンダー、アラーム、天気、場所、
+        メモやPDFなどをまとめて管理できます。
+      </p>
+      <p>
+        毎日の予定管理を、できるだけシンプルで分かりやすくすることを目指しています。
+      </p>
+    </section>
+
+    <footer>
+      <p>© 2026 Shunki Kazama. All rights reserved.</p>
+      <p>キョウコレ</p>
+    </footer>
+  </main>
+</body>
+</html>
